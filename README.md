@@ -23,3 +23,12 @@ The API was developed to be used in my website, however instead of API I'm movin
 4. I have listed down all the commands and errors I faced in multiple attempts of creating the container image. You can find the doc here [ECR repo creation](https://github.com/Hrushikesh-github/squeezenet-api-lambda-ecr/blob/develop/ECR%20repo%20creation.pdf)
 5. Similarly other docs are [AWS Lambda - RDS connection](https://github.com/Hrushikesh-github/squeezenet-api-lambda-ecr/blob/develop/AWS%20Lambda%20and%20RDS%20connection.pdf) and a short introduction for my own understanding of what are [APIs and Web Services](https://github.com/Hrushikesh-github/squeezenet-api-lambda-ecr/blob/develop/API%20and%20Web%20Service%20Introduction.pdf). You might have to download them as github doesn't render inline code.
 6. Squeezenet was used because of exceptional low memory of 4.8MB and good performance. Compare this with VGG16 of 270MB and ResNet with 550MB.
+
+
+### Contents in the repo
+There are two directories 
+1. [api-image](https://github.com/Hrushikesh-github/squeezenet-api-lambda-ecr/tree/develop/api-image) contains code on how to call the API and few example files. 
+2. [ecr-repo-creation](https://github.com/Hrushikesh-github/squeezenet-api-lambda-ecr/tree/develop/predictions-db-ec2) contains code that was used to build the ecr repo.
+
+I would be changing the endpoint credentials to avoid any misuse and save the costs.
+Feel free to contact me for more information
